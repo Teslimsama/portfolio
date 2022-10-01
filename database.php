@@ -11,32 +11,32 @@ $database = "unibooks";
 $username = "root";
 $password = "";
 
-$db_connect = new mysqli($servername , $username , $password ,  $database);
+$db_connect = new mysqli($servername, $username, $password,  $database);
 
 if ($db_connect->connect_error) {
-   die("connection failed:" . $db_connect->connect_error);
-}else {
+    die("connection failed:" . $db_connect->connect_error);
+} else {
     echo "yes";
 }
 // header("location: ../Signin");
 
-    define('DBINFO', 'mysql:host=localhost;dbname=unibooks');
-    define('DBUSER','root');
-    define('DBPASS','');
+define('DBINFO', 'mysql:host=localhost;dbname=unibooks');
+define('DBUSER', 'root');
+define('DBPASS', '');
 
-    function fetchAll($query){
-        $con = new PDO(DBINFO, DBUSER, DBPASS);
-        $stmt = $con->query($query);
-        return $stmt->fetchAll();
+function fetchAll($query)
+{
+    $con = new PDO(DBINFO, DBUSER, DBPASS);
+    $stmt = $con->query($query);
+    return $stmt->fetchAll();
+}
+function performQuery($query)
+{
+    $con = new PDO(DBINFO, DBUSER, DBPASS);
+    $stmt = $con->prepare($query);
+    if ($stmt->execute()) {
+        return true;
+    } else {
+        return false;
     }
-    function performQuery($query){
-        $con = new PDO(DBINFO, DBUSER, DBPASS);
-        $stmt = $con->prepare($query);
-        if($stmt->execute()){
-            return true;
-        }else{
-            return false;
-        }
-    }
-
-?>
+}
