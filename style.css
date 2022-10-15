@@ -132,6 +132,9 @@ nav ul li a:hover::after{
  .tab-contents{
     display: none;
  }
+ .tab-contents a{
+    color: #ff004f;
+ }
  .tab-contents.active-tab{
     display: block;
  }
@@ -207,10 +210,30 @@ nav ul li a:hover::after{
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
     transition: height 0.5s;
  }
+  /* @media only screen and (max-width:1200px) {
+ .layer{
+    width:100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 11px;
+    transition: height 0.5s;
+ }
+  } */
  .layer h3{
     font-weight: 500;
     margin-bottom: 20px;

@@ -44,7 +44,7 @@ include 'alert.message.php';
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png" alt="">
+                    <img src="images/pf.jpg" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
@@ -68,7 +68,8 @@ include 'alert.message.php';
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>April 2022 - August 2022</span><br>Early code</li>
+                            <li><span>April 2022 - August 2022</span><br> <a href="https://earlycode.net/"> Early code</a>
+                            </li>
 
                         </ul>
                     </div>
@@ -100,8 +101,9 @@ include 'alert.message.php';
                     <img src="images/work-1.png" alt="work-1">
                     <div class="layer">
                         <h3>E-commerce website</h3>
-                        <p>I made an e-commerce website for a client who sells clothes, watches, jewelries and clothing accessories which was to their specifications.</p>
-                        <i class="fas fa-external-link-alt"></i>
+                        <p class="">
+                            I have created a ecommerce websites, including one for a client who sells clothes, watches, jewelries and clothing accessories. This website was made to the client's specifications .</p>
+                        <a href="https://bolakaz.unibooks.com.ng"><i class="fas fa-external-link-alt"></i></a>
                     </div>
 
 
@@ -110,20 +112,25 @@ include 'alert.message.php';
                     <img src="images/work-2.png" alt="work-2">
                     <div class="layer">
                         <h3>Bookshop website</h3>
-                        <p>I made a project which I had been on mind which was a website where students could easily gain access to any book needed for free and if they needed help with their assignment the website would help them in connecting them with those would.</p>
-                        <i class="fas fa-external-link-alt"></i>
+                        <p> This website is committed to helping students succeed in their studies. </p>
+                        <a href="https://unibooks.com.ng"> <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png" alt="work-3">
                     <div class="layer">
                         <h3>Video viewing website</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque explicabo dolorum, quaerat aspernatur libero delectus consequatur, corrupti rerum animi cumque, reiciendis suscipit tempora ratione vero quae possimus molestias eveniet pariatur. </p>
-                        <i class="fas fa-external-link-alt"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque explicabo dolorum, quaerat aspernatur libero delectus consequatur. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More...</a>
+            <style>
+                i.fas.fa-external-link-alt {
+                    margin-top: 20px;
+                }
+            </style>
+            <!-- <a href="#" class="btn">See More...</a> -->
         </div>
     </div>
     <!-- ---------contact----------- -->
