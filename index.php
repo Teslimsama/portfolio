@@ -98,7 +98,7 @@ include 'alert.message.php';
             <h1 class="work-list">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png" alt="work-1">
+                    <img src="images/work-2.jpg" alt="work-1">
                     <div class="layer">
                         <h3>E-commerce website</h3>
                         <p class="">
@@ -109,7 +109,7 @@ include 'alert.message.php';
 
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png" alt="work-2">
+                    <img src="images/work-1.jpg" alt="work-2">
                     <div class="layer">
                         <h3>Bookshop website</h3>
                         <p> This website is committed to helping students succeed in their studies. </p>
@@ -117,7 +117,7 @@ include 'alert.message.php';
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png" alt="work-3">
+                    <img src="images/work-3.jpg" alt="work-3">
                     <div class="layer">
                         <h3>Video viewing website</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque explicabo dolorum, quaerat aspernatur libero delectus consequatur. </p>
